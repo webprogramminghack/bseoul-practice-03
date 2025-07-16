@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Styling - Class 5</title>
+    <!-- 2. INTERNAL CSS -->
+    <style>
+      div {
+        color: green;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    </style>
+
+    <!-- 3. ESKTERNAL CSS -->
+    <link rel="stylesheet" href="./1-styling-css.css" />
+  </head>
+  <body>
+    <h1>Materi Menggunakan CSS Styling</h1>
+
+    <!-- 
+        3 CARA MENGGUNAKAN CASCADING STYLE SHEET :
+        1. INLINE CSS (HIRARKI PALING TINGGI)
+        2. INTERNAL CSS
+        3. EKSTERNAL CSS (HIRARKI PALING RENDAH)
+    -->
+
+    <!-- 1. INLINE CSS -->
+    <p style="color: red; font-size: 24px; font-weight: 700">Hello Dunia</p>
+    <!-- Inline CSS Bis digunakan dengan menggunakan attribute style -->
+
+    <!-- 2. INTERNAL CSS -->
+    <div>Hello World!!</div>
+
+    <!-- 3. EKSTERNAL CSS -->
+    <span>Hola Duniaa!!</span>
+
+    <!-- CONTOH KAK ILHAM -->
+    <p>Halo HALO HALO</p>
+    <div>
+      <p>Halo HALO HALO</p>
+      <p>Halo HALO HALO</p>
+      <p>Halo HALO HALO</p>
+      <p>Halo HALO HALO</p>
+    </div>
+    <p>Halo HALO HALO</p>
+    <p>Halo HALO HALO</p>
+    <p>Halo HALO HALO</p>
+    <p>Halo HALO HALO</p>
+  </body>
+</html>

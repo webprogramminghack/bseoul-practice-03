@@ -1,0 +1,88 @@
+/* CONTOH ELEMEN ATAU TAG HTML */
+h3 {
+  color: red;
+}
+
+i {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+/* CONTOH CLASS (.)*/
+div.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* CONTOH ID (#) */
+h6#judulKonten {
+  color: green;
+}
+
+/* CONTOH KOMBINASI */
+span.teks-edit#teksEdit {
+  color: yellow;
+  background-color: black;
+}
+
+/* CONTOH GROUPING (,) */
+h4,
+h5,
+h6 {
+  color: red;
+}
+
+/* CONTOH ATTRIBUTES ([]) */
+a[href] {
+  color: white;
+  background-color: cyan;
+}
+
+/* CONTOH DESCENDANT */
+div.descendant p {
+  color: blue;
+}
+
+/* CONTOH CHILD (>) */
+div.child > h2 {
+  color: blue;
+}
+
+/* CONTOH ADJACENT SIBLING (+) */
+h2 + p {
+  color: red;
+}
+
+/* CONTOH GENERAL SIBLING (~) */
+h2 ~ p {
+  color: purple;
+}
+
+/* CONTOH UNIVERSAL (*) */
+* {
+  background-color: grey;
+}
+
+/* CONTOH PSEUDO-CLASS */
+button:hover {
+  background-color: pink;
+  transition: ease-in-out 0.3s;
+  transform: translateX(100px);
+}
+
+/* CONTOH PSEUDO-ELEMENT */
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "👉 ";
+}
+
+li::after {
+  content: " 🍕";
+}

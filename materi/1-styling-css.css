@@ -1,0 +1,15 @@
+span {
+  color: magenta;
+}
+
+p {
+  color: cyan;
+}
+
+div p {
+  color: green;
+}
+
+html {
+  background-color: black;
+}

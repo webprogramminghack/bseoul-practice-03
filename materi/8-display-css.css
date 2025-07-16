@@ -1,0 +1,42 @@
+/* DISPLAY : BLOCK */
+/* div : secara default display block */
+div {
+  background-color: red;
+  display: block;
+  margin: 100px;
+  padding: 50px;
+}
+
+/* span : secara default display inline */
+span {
+  background-color: blue;
+  color: white;
+  display: block;
+}
+
+/* p : secara default display block */
+p {
+  background-color: yellow;
+}
+
+/* DISPLAY : INLINE */
+strong {
+  background-color: blue;
+  color: white;
+}
+
+h5 {
+  background-color: maroon;
+  color: white;
+  display: inline;
+  margin: 100px;
+  padding: 10px;
+}
+
+/* DISPLAY : INLINE-BLOCK */
+h4 {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  padding: 100px;
+}

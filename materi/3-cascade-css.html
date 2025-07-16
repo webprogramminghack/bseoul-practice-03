@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Cascade - Class 5</title>
+    <style>
+      p {
+        color: red;
+      }
+
+      p {
+        color: green;
+      }
+
+      p {
+        color: pink;
+      }
+
+      p#teks.highlight {
+        color: red !important;
+      }
+
+      p#teks {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Materi CSS Cascade</h1>
+    <ol>
+      <li>Urutan Kemunculan (Order of Appearance)</li>
+      <li>Spesifisitas (Specificity)</li>
+      <li>Kepentingan (Importance)</li>
+    </ol>
+
+    <h1>1. Urutan Kemunculan (Order of Appearance)</h1>
+    <p>color red</p>
+    <p>color green</p>
+
+    <h1>2. Spesifisitas (Specificity)</h1>
+    <p id="teks" class="highlight">This text will be red.</p>
+
+    <h1>3. Kepentingan (Importance)</h1>
+    <p id="teks" class="highlight">Ini mau coba yang important</p>
+  </body>
+</html>

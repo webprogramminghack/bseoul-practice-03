@@ -1,0 +1,28 @@
+/* TEXT COLORING */
+p {
+  color: red;
+  color: #ff0000;
+  color: rgb(255, 0, 0);
+  color: rgba(255, 0, 0, 1);
+  color: hsl(0, 100%, 50%);
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+/* BACKGROUND COLORING */
+div {
+  background-color: red;
+  background-color: #ff0000;
+  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 1);
+  background-color: hsl(0, 100%, 50%);
+}
+
+/* BACKGROUND COLORING GRADIENT */
+div {
+  background: linear-gradient(-180deg, white, red);
+  background: radial-gradient(white, red);
+}

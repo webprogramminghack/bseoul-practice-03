@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units - Class 5</title>
+    <style>
+      /* ABSOLUTE UNITS */
+      .pixel {
+        font-size: 32px; /* 32 px */
+      }
+
+      /* RELATIVE UNITS */
+      .parent-em {
+        font-size: 16px;
+      }
+
+      .em {
+        font-size: 2em; /* 2rem = 2 * 16 = 32 px */
+      }
+
+      html {
+        font-size: 10px;
+      }
+
+      .rem {
+        font-size: 2rem; /* 2rem = 2 * 10 = 20 px */
+      }
+
+      .parent-percent {
+        width: 400px;
+        background: lightcoral;
+      }
+
+      .percent {
+        width: 50%; /* 50% = 400px / 50px => 200px */
+        background: lightblue;
+      }
+
+      .viewport-box {
+        background: salmon;
+        width: 50vw;
+        height: 50vh;
+      }
+
+      .ch {
+        width: 10ch; /* width nya akan selebar 20 karakter 0 */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MATERI CSS UNITS</h1>
+
+    <h3>1. UNITS PIXEL (px)</h3>
+    <p class="pixel">Halo saya pixel</p>
+
+    <h3>2. UNITS EM (em)</h3>
+    <div class="parent-em">
+      <p class="em">Halo saya em</p>
+    </div>
+
+    <h3>3. UNITS REM (rem)</h3>
+    <p class="rem">Halo saya em</p>
+
+    <h3>4. UNITS PERCENTS (%)</h3>
+    <div class="parent-percent">
+      <div class="percent">Saya adalah percent</div>
+    </div>
+
+    <h3>5. UNITS VH/VW (vh/vw) atau UNITS DVH/DVW (dvh/dvw)</h3>
+    <div class="viewport-box">Ini Box</div>
+
+    <h3>6. UNITS CH (ch)</h3>
+    <input type="text" class="ch" style="margin-bottom: 500px" />
+  </body>
+</html>

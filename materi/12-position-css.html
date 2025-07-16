@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position - Class 5</title>
+    <style>
+      body {
+        height: 1000vh;
+      }
+      /* POSITION : STATIC */
+      .static-box {
+        width: 100px;
+        height: 100px;
+        position: static;
+      }
+      /* POSITION : STATIC */
+
+      /* POSITION : RELATIVE */
+      .relative-box {
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+
+      /* POSITION : RELATIVE */
+
+      /* POSITION : ABSOLUTE */
+      .absolute-box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+      /* POSITION : ABSOLUTE */
+
+      /* POSITION : FIXED */
+      .fixed-box {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+      }
+      /* POSITION : FIXED */
+
+      /* POSITION : STICKY */
+      .sticky-box {
+        width: 100%;
+        height: 80px;
+        position: sticky;
+        background-color: lightgreen;
+        top: 0;
+        z-index: 10;
+      }
+      /* POSITION : STICKY */
+
+      .geser {
+        left: 20px;
+        top: 50px;
+      }
+
+      .geser-fixed {
+        right: 10px;
+        bottom: 20px;
+      }
+
+      .bg-pink {
+        background-color: pink;
+      }
+
+      .bg-aqua {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="margin-top: 100px">5. POSISI : STICKY</h2>
+    <div class="sticky-box">
+      <h3>Sticky Box</h3>
+      <p>akan menempel di atas saat scroll</p>
+    </div>
+    <h1>MATERI CSS POSITION</h1>
+
+    <h2>1. POSISI : STATIC</h2>
+    <div class="static-box bg-pink"></div>
+    <div class="static-box bg-aqua"></div>
+
+    <h2>2. POSISI : RELATIVE</h2>
+    <div class="relative-box geser bg-pink"></div>
+    <div class="relative-box bg-aqua" style="position: static"></div>
+
+    <h2>3. POSISI : ABSOLUTE</h2>
+    <div class="relative-box bg-pink geser"></div>
+    <div class="absolute-box bg-aqua"></div>
+
+    <div class="fixed-box bg-pink geser-fixed">
+      <h2>4. POSISI : FIXED</h2>
+    </div>
+
+    <p>scroll ke bawah untuk melihat efek sticky box</p>
+  </body>
+</html>

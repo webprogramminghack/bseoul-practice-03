@@ -1,0 +1,21 @@
+/* TEXT STYLING */
+/* 
+    1. text-align
+    2. text-decoration
+    3. letter-spacing
+    4. word-spacing
+    5. line-height
+    6. ...
+*/
+
+p {
+  line-height: 20px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  /* text-transform: uppercase | lowercase | capitalize; */
+  text-decoration: underline;
+  /* text-decoration: overline | line-through | underline; */
+  text-align: justify;
+  /* text-align: left | center | right | justify; */
+}
